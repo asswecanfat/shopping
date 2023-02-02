@@ -1,0 +1,20 @@
+/* 版心设置 */
+.center {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+/* 快捷导航设置 */
+.short_nav ul>li {
+    float: left;
+    line-height: 31px;
+}
+
+.short_nav ul>li>a {
+    display: inline-block;
+    line-height: 31px;
+}
+
+.red_font {
+    color: #cb1623;
+}

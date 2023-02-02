@@ -1,0 +1,59 @@
+section[class=short_nav_bg] {
+    height: 31px;
+    background-color: #f1f1f1;
+}
+
+.short_nav_bg>.short_nav {
+    height: 100%;
+    background-color: aqua;
+}
+
+.short_nav>.left_sn {
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+
+div[class=left_sn]>ul {
+    width: 100%;
+    height: 100%;
+}
+
+div[class=left_sn]>ul>li {
+    float: left;
+    height: 100%;
+}
+
+/* div[class=left_sn]>ul>li>a {
+    display: inline-block;
+    line-height: 31px;
+} */
+
+.short_nav>.right_sn {
+    float: right;
+    height: 100%;
+    width: 65%;
+}
+
+.short_nav>.right_sn>ul {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* 小竖线实现 */
+div[class=right_sn]>ul>li:nth-of-type(2n) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0px;
+}
+
+/* 小三角实现 */
+div[class=right_sn]>ul>li:nth-of-type(n + 8)>a::after,
+div[class=right_sn]>ul>li:nth-of-type(5)>a::after {
+    content: "\e908";
+    display: inline-block;
+    line-height: 31px;
+    margin-left: 6px;
+}
