@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?l1xkd7');
-    src: url('../fonts/icomoon.eot?l1xkd7#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?l1xkd7') format('truetype'),
-        url('../fonts/icomoon.woff?l1xkd7') format('woff'),
-        url('../fonts/icomoon.svg?l1xkd7#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?hm4g32');
+    src: url('../fonts/icomoon.eot?hm4g32#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?hm4g32') format('truetype'),
+        url('../fonts/icomoon.woff?hm4g32') format('woff'),
+        url('../fonts/icomoon.svg?hm4g32#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -33,4 +33,16 @@ li {
 img {
     border: 0;
     vertical-align: middle;
+}
+
+input,
+button {
+    outline: none;
+    vertical-align: bottom;
+    border: 0;
+}
+
+em,
+i {
+    font-style: normal;
 }

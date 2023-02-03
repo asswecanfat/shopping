@@ -1,0 +1,87 @@
+nav[class=nav_bg] {
+    height: 47px;
+    background-color: aqua;
+    border-bottom: 2px solid #b1191a;
+    line-height: 47px;
+}
+
+nav[class=nav_bg]>.nav {
+    height: 100%;
+    background-color: aquamarine;
+}
+
+/* 导航中的下拉菜单栏 */
+.nav>div[class=dropdown_menu] {
+    float: left;
+    position: relative;
+    height: 100%;
+    width: 210px;
+    background-color: #b1191a;
+
+}
+
+div[class=dropdown_menu]>h1 {
+    height: calc(100% + 2px);
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    cursor: default;
+    color: #fff;
+}
+
+div[class=dropdown_menu]:hover ul {
+    height: 465px;
+}
+
+div[class=dropdown_menu]>ul {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: #c81623;
+    transition: all .5s;
+    overflow: hidden;
+}
+
+div[class=dropdown_menu]>ul li {
+    width: 100%;
+    height: 31px;
+    line-height: 31px;
+}
+
+
+div[class=dropdown_menu]>ul a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: 2px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+div[class=dropdown_menu]>ul a::after {
+    content: "\e90e";
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    font-size: 14px;
+    line-height: 1em;
+    top: 50%;
+    right: 5px;
+    margin-top: -6px;
+}
+
+div[class=dropdown_menu]>ul a:hover {
+    background-color: #fff;
+}
+
+/* items */
+.nav>ul {
+    height: 100%;
+    background-color: bisque;
+}
+
+.nav>ul>li {
+    float: left;
+}
