@@ -17,6 +17,7 @@
     font-family: 'icomoon';
 }
 
+
 a {
     text-decoration: none;
     color: black;
@@ -45,4 +46,12 @@ button {
 em,
 i {
     font-style: normal;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: visible;
 }
