@@ -1,0 +1,84 @@
+.recommend {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+
+.recommend>.recom_hd {
+    float: left;
+    height: 100%;
+    width: 205px;
+    background: url(../images/recom.png) no-repeat center center #5c5251;
+}
+
+.recommend>.recom_hf {
+    float: left;
+    height: 100%;
+    width: calc(100% - 205px);
+    padding-left: 10px;
+}
+
+.recommend>.recom_hf>ul {
+    height: 100%;
+    width: 100%;
+}
+
+.recom_hf>ul>li {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: calc(100% / 4);
+}
+
+.recom_hf>ul>li:nth-of-type(-n + 3)::after {
+    content: "";
+    position: absolute;
+    top: 16px;
+    right: 0;
+    height: 80%;
+    border: 1px solid #ddd;
+}
+
+.recommend>.recom_hf a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.recommend>.recom_hf .shop_msg {
+    float: left;
+    height: 100%;
+}
+
+.recommend>.recom_hf a>img {
+    float: right;
+    height: 100%;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.recom_hf .shop_msg>h4 {
+    margin-bottom: 10px;
+}
+
+.recom_hf .shop_msg>p:nth-of-type(1) {
+    background-color: blue;
+    padding: 0 5px;
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+.recom_hf .shop_msg>p:nth-of-type(2) {
+    color: #e4e4e4;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.recom_hf .shop_msg>p:nth-of-type(3) {
+    text-align: center;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 2rem;
+    background-color: blue;
+}

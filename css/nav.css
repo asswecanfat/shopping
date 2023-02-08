@@ -1,14 +1,14 @@
 nav[class=nav_bg] {
     width: 100%;
     height: 47px;
-    background-color: aqua;
+    /* background-color: aqua; */
     border-bottom: 2px solid #b1191a;
     line-height: 47px;
 }
 
 nav[class=nav_bg]>.nav {
     height: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 /* 导航中的下拉菜单栏 */
@@ -84,10 +84,10 @@ div[class=dropdown_menu]>ul a:hover {
     height: 100%;
 }
 
-.nav>div[class=items_list]>ul {
+/* .nav>div[class=items_list]>ul {
 
     background-color: bisque;
-}
+} */
 
 div[class=items_list]>ul>li {
     float: left;
