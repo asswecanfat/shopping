@@ -55,3 +55,43 @@
     width: 100%;
     background-color: pink;
 }
+
+.fbd>.tab_content {
+    width: 100%;
+    height: 100%;
+}
+
+.tab_content>.tab_list_item {
+    width: 100%;
+    height: 100%;
+}
+
+.tab_content>.tab_list_item>div {
+    float: left;
+    height: 100%;
+}
+
+.tab_list_item>.floor_210 {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.floor_210>ul {
+    margin-left: 10px;
+}
+
+.floor_210>ul>li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.tab_list_item>.floor_329,
+.tab_list_item>.floor_329 img {
+    height: 100%;
+    text-align: center;
+}

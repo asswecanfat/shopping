@@ -150,3 +150,36 @@ div[class=link] li:nth-of-type(2n) {
 div[class=copyright_box]>div[class=copyright] {
     text-align: center;
 }
+
+/* 楼层通用 */
+.floor_210 {
+    width: 210px;
+
+}
+
+.floor_329 {
+    width: 329px;
+}
+
+.floor_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.floor_219 {
+    width: 219px;
+}
+
+.floorw_up img {
+    width: 100%;
+    height: 50%;
+}
+
+.floorw_up a:nth-of-type(1) img {
+    border-bottom: 1px solid #ccc;
+}
+
+.floorw_all img {
+    width: 100%;
+    height: 100%;
+}
